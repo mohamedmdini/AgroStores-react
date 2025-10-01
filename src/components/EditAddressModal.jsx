@@ -153,7 +153,7 @@ export const EditAddressModal = () => {
             Country:
           </label>
           <select id="country" name="countrySelect" className="fs-sm">
-            <option value="India">India</option>
+            <option value="tunisia">tunisia</option>
             <option value="australia">Australia</option>
             <option value="sriLanka">SriLanka</option>
             <option value="nepal">Nepal</option>

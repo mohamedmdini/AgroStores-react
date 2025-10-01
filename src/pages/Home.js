@@ -16,7 +16,7 @@ export const Home = ()=>{
                     One Stop Solution for your farming needs
                     </h1>
                     <h2 className="banner-subtitle lt-sp-1 text-center">
-                    Buy Fertilizers, Insectisides, Seeds & other Agriculture Products
+                    Agro-store where you can find all kind of Agri-food products 
                     </h2>
                     <Link
                     to="/products"
@@ -26,7 +26,7 @@ export const Home = ()=>{
                     </Link>
                 </div>
                 </header>
-                <h2 className="text-center mg-top-md">Featured Categories</h2>
+                <h2 className="text-center mg-top-md">farmers and products</h2>
                 <div className="title-underline"></div>
                 <div className="categories">
                   {GetFeaturedCategories().map((item) =>

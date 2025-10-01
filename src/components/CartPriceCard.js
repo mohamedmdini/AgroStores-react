@@ -65,9 +65,9 @@ export const CartPriceCard = () => {
           navigate(`/order-success/${response.razorpay_payment_id}`);
         },
         prefill: {
-          name: "Kedar Kulkarni",
-          email: "kedar@gmail.com",
-          contact: "9999999998",
+          name: "mohamed mdini",
+          email: "mdinimohamed14@gmail.com",
+          contact: "+21621950924",
         },
         notes: {
           address: "AgroStores Corporate Office",
@@ -93,28 +93,28 @@ export const CartPriceCard = () => {
         <hr />
         <div className="original-price price-item align-center mg-xsm fw-bold">
           <h4>Price ({cartState.cartItems.length} Items)</h4>
-          <p className="para-md">₹{totalOldPrice()}</p>
+          <p className="para-md">euro{totalOldPrice()}</p>
         </div>
         <div className="discount-price price-item align-center mg-xsm fw-bold">
           <h4>Discount</h4>
-          <p className="para-md">- ₹{totalOldPrice() - totalPrice()}</p>
+          <p className="para-md">- euro{totalOldPrice() - totalPrice()}</p>
         </div>
         <div className="delivery-charges price-item align-center mg-xsm fw-bold">
           <h4>Delivery Charge</h4>
-          <p className="para-md">₹{deliveryCharge()}</p>
+          <p className="para-md">euro{deliveryCharge()}</p>
         </div>
         <hr />
         <div className="total-amount price-item flex align-center mg-xsm">
           <h4>Total Amount</h4>
-          <p className="para-md">₹{totalPrice() + deliveryCharge()}</p>
+          <p className="para-md">euro{totalPrice() + deliveryCharge()}</p>
         </div>
         <hr />
 
         <p className="note fw-bold mg-xsm">
-          You will save ₹{totalOldPrice() - totalPrice()} on this order
+          You will save euro{totalOldPrice() - totalPrice()} on this order
         </p>
         <p className="note-free-delivery fw-bold mg-xsm">
-          FREE Home Delivery on orders above ₹500
+          FREE Home Delivery on orders above 500 euro
         </p>
 
         {location.pathname == "/cart" ? (
